@@ -8,7 +8,7 @@ Using [tablex](https://github.com/PgBiel/typst-tablex) under the hood.
 
 ![ipv4 example](ipv4-example.png)
 
-```typst  
+```typ
 bytefield(
   bits(4)[Version], bits(4)[TTL], bytes(1)[TOS], bytes(2)[Total Length],
   bytes(2)[Identification], bits(3)[Flags], bits(13)[Fragment Offset],
